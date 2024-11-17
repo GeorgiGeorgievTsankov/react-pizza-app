@@ -4,6 +4,7 @@ import Loader from "./Loader";
 import CartOverview from "../Features/cart/CartOverview";
 import { Outlet, useNavigation } from "react-router-dom";
 
+
 function AppLayout() {
   const navigation = useNavigation();
   const isLoading = navigation.state === "loading";
