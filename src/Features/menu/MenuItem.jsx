@@ -1,4 +1,5 @@
-// import Button from '../../ui/Button';
+import React from 'react';
+import Button from '../../ui/Button';
 import { formatCurrency } from '../../utils/helpers';
 
 function MenuItem({ pizza }) {
@@ -25,7 +26,7 @@ function MenuItem({ pizza }) {
             </p>
           )}
 
-          {/* <Button type="small">Add to cart</Button> */}
+          <Button type="small">Add to cart</Button>
         </div>
       </div>
     </li>
